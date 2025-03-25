@@ -1,0 +1,72 @@
+/* App.css */
+
+body {
+  background-color: #1e1e1e; /* Cambia este color al que prefieras */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #777;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+select:focus {
+  border-color: #ffcc00;
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  color: #ffcc00;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #777;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e65c00;
+}

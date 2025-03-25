@@ -1,0 +1,22 @@
+/* Calculator.css */
+.calculadora-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 25px;
+  border: 2px solid #555;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #282c36;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+}
+.resultado {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #444;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffcc00;
+}
