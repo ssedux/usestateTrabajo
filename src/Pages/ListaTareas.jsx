@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './ListaTareas.css';
 function ListaTareas() {
   const [tarea, setTarea] = useState('');
   const [tareas, setTareas] = useState([]);
@@ -27,7 +27,7 @@ function ListaTareas() {
 
   return (
     <div className="lista-tareas-container">
-      <h2>Lista de Tareas</h2>
+      <label>Lista de Tareas</label>
       <div className="agregar-tarea">
         <input 
           type="text" 

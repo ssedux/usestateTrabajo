@@ -6,9 +6,26 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding-top: 1000px;
   margin: 0;
 }
 
+.main-content {
+  margin-top: calc(50px + 10px); /* 50px es la altura del nav + 10px de separación */
+  padding: 20px; /* Espaciado interno */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  margin-bottom: 600px;
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
 
 select {
   width: 100%;
@@ -54,6 +71,11 @@ input {
   color: #fff;
 }
 
+.main-content {
+  margin-top: 650px; /* Espacio debajo del nav */
+  padding: 20px; /* Espaciado interno */
+}
+
 button {
   width: 100%;
   padding: 12px;
@@ -69,4 +91,12 @@ button {
 
 button:hover {
   background-color: #e65c00;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
